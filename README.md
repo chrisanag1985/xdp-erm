@@ -10,6 +10,7 @@ dnf config-manager --set-enabled crb
 ```
 ```
 dnf install clang llvm gcc libbpf libbpf-devel libxdp libxdp-devel xdp-tools bpftool kernel-headers
+dnf install glibc-devel.i686
 ```
 
 Compile XDP program
