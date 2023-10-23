@@ -9,7 +9,7 @@ dnf config-manager --set-enabled powertools
 dnf config-manager --set-enabled crb
 ```
 ```
-dnf install libbpf clang libbpf-tools libbpf-devel
+dnf install clang llvm gcc libbpf libbpf-devel libxdp libxdp-devel xdp-tools bpftool kernel-headers
 ```
 
 Compile XDP program
